@@ -1,0 +1,70 @@
+@media (max-width: 1440px){}
+@media (max-width: 1200px){}
+@media (max-width: 1024px){}
+@media (max-width: 992px){}
+@media (max-width: 768px){}
+@media (max-width: 576px){}
+@media (max-width: 425px){}
+@media (max-width: 375px){}
+@media (max-width: 415px) and (min-width: 300px){
+    .balloon {
+        position: absolute;
+        width: 50px;
+        height: 60px;
+    }
+    .balloon::after {
+        left: 15px;
+        top: 59px;
+    }
+    .balloon::before {
+        position: absolute;
+        content: '';
+        width: 0.5px;
+        height: 60px;
+        background-color: white;
+        top: 60px;
+        left: 24px;
+    }
+    .balloon:nth-child(6) {
+        left: 10px;
+        bottom: -100px;
+        background-color: rgba(255,165,0,5);
+        animation-duration: 12s;
+    }
+    .balloon:nth-child(7) {
+        left: 20px;
+        bottom: -100px;
+        background-color: rgb(87, 117, 239);
+        animation-duration: 14s;
+    }
+    .balloon:nth-child(8) {
+        left: 30px;
+        bottom: -100px;
+        background-color: rgb(217, 187, 187);
+        animation-duration: 13s;
+    }
+    .balloon:nth-child(5) {
+        left: 40px;
+        bottom: -100px;
+        background-color: rgb(248, 27, 7);
+        animation-duration: 13s;
+    }
+    .balloon:nth-child(4) {
+        left: 50px;
+        bottom: -100px;
+        background-color: rgba(0,128,0 ,5);
+        animation-duration: 11s;
+    }
+    .balloon:nth-child(3) {
+        left: 60px;
+        bottom: -100px;
+        background-color: rgba(255,255,0,5);
+        animation-duration: 12s;
+    }
+    .balloon:nth-child(2) {
+        left: 100px;
+        bottom: -100px;
+        background-color: rgb(95, 217, 13);
+        animation-duration: 14s;
+    }
+}
